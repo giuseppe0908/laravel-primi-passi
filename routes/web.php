@@ -16,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/laravel', function () {
+    return view('laravel');
+});
 Route::get('/ciao', function () {
     return view('ciao');
+});
+Route::get('/altra-page', function () {
+    return view('altra-page');
 });

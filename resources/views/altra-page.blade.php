@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: orange;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -46,6 +46,7 @@
 
             .title {
                 font-size: 84px;
+                color: yellow
             }
 
             .links > a {
@@ -81,13 +82,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    PRIMA PAGINA LARAVEL
+                    Laravel
                 </div>
 
                 <div class="links">
                     <a href="/ciao">ciao</a>
                     <a href="/laravel">my page laravel yellow</a>
-                    <a href="/altra-page">altra-page</a>
+                    <a href="\">home</a>
                 </div>
             </div>
         </div>
